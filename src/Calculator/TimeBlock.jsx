@@ -3,7 +3,7 @@ function TimeInputBlock({ index, value, onChange }) {
 
   return (
     <div className="time-block">
-      <span>{index + 1}</span>
+      {/* <span>{index + 1}</span> */}
       <input
         type="date"
         value={date}

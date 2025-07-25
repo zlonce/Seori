@@ -16,6 +16,10 @@ input[type="time"] {
   padding: 4px;
 }
 
+.totalPay {
+  justify-items: center;
+}
+
 .buttons {
   display: flex;
 }

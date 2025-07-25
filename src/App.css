@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .main-container {
   display: flex;
   flex-direction: column;
@@ -5,11 +11,11 @@
   justify-content: flex-start;
   width: 100vw;
   height: 100vh;
-  margin-top: 70px;
+  padding-top: 60px;
+  margin-top: 10px;
   background-color: #f9f9f9;
 }
 
-/* navi */
 .navi {
   position: fixed;
   top: 0;
